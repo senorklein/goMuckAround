@@ -1,8 +1,10 @@
 package main
 
-import "fmt"
-import "os"
-import "strings"
+import (
+	"fmt"
+	"os"
+	"strings"
+)
 
 type Conversion struct {
 	from string
